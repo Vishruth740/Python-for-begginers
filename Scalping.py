@@ -37,7 +37,7 @@ except:
     sys.exit()
 
 
-print(f"-----Algo Started (Subscribe 'Realitixchange' YouTube)-----")
+print(f"-----Algo Started (kramatiq)-----")
 try:
     kite = KiteConnect(api_key,access_token)
     kite.set_access_token(access_token)
@@ -380,3 +380,4 @@ trade_df.to_csv(f"Logs/{datetime.datetime.now().date()}.csv")
 
 print("-----Algo Stopped-----")
 time.sleep(10)
+
